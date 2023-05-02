@@ -17,12 +17,19 @@ body {
   margin-bottom: 60px;
 }*/
 img{
-    height: 140px;
-    width: 140px;
-    object-fit:contain;
+    height: 190px;
+    width: 100%;
+    object-fit:cover;
 }
 .foot{
     position:fixed;
     bottom: 0;
     width:100%;
+}
+.cont{
+    width: 100%;
+   /* height: 300px;*/
+    display:flex;
+    justify-content:space-between;
+
 }
